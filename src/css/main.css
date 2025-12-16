@@ -65,3 +65,44 @@
     margin-top: 32px;
    }
 }
+/* lore */
+.lore-section{
+    background-image: url("/img/lore/mob.png");
+        background-repeat: no-repeat;
+            background-position: top center;
+            background-size: cover;
+}
+.lore-container{
+    padding-top: 60px;
+    padding-bottom: 296px;
+}
+.lore-wrapper{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 4px dashed rgba(255, 255, 255, 0.5);
+        border-radius: 20px;
+        padding: 24px;
+        width: 335px;
+        height: 636px;
+        background: rgba(255, 255, 255, 0.3);
+}
+@media only screen and (min-width: 1439px) {
+    .lore-section{
+        background-image: url("/img/lore/desk.png");
+    }
+    .lore-container{
+       padding-top: 80px;
+       padding-bottom: 65px;
+
+    }
+    .lore-wrapper{
+        border: 4px dashed rgba(255, 255, 255, 0.5);
+            border-radius: 20px;
+            padding: 44px 28px;
+            width: 570px;
+            height: 408px;
+            margin-top: 52px;
+    }
+}
