@@ -139,3 +139,42 @@
         line-height: 1.11111;
  }
 }
+/* awakening */
+.awakening-section{
+    background-image: url("/img/awakening/mob.png");
+            background-repeat: no-repeat;
+                background-position: top center;
+                background-size: cover;
+}
+.awakening-container{
+    padding-top: 60px;
+    padding-bottom: 380px;
+}
+.awakening-title{
+    color: #fff;
+}
+.awakening-text{
+    margin-top: 40px;
+    border: 4px dashed rgba(255, 255, 255, 0.5);
+        border-radius: 20px;
+    padding: 24px 16px;
+        width: 335px;
+    color: #fff;
+    font-size: 20px;
+        background: rgba(74, 52, 109, 0.8);
+}
+@media only screen and (min-width: 1439px) {
+ .awakening-section{
+    background-image: url("/img/awakening/desk.png");
+ }
+ .awakening-container{
+    padding: 80px;
+ }
+ .awakening-text{
+    margin-right: 0;
+    margin-left: auto;
+    padding: 44px 28px;
+        width: 570px;
+        margin-top: 90px;
+ }
+}
