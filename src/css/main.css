@@ -106,3 +106,36 @@
             margin-top: 52px;
     }
 }
+/* enter */
+.enter-section {
+    background-image: url("/img/enter/mob.png");
+            background-repeat: no-repeat;
+                background-position: top center;
+                background-size: cover;
+}
+.enter-container{
+    padding-top: 60px;
+    padding-bottom: 430px;
+}
+.enter-title{
+    color: #fff;
+}
+.enter-subtitle{
+    text-align: center;
+        font-weight: 700;
+        font-size: 28px;
+        color: #fff;
+        margin-top: 32px;
+}
+@media only screen and (min-width: 1439px) {
+ .enter-section{
+    background-image: url("/img/enter/desk.png");
+ }
+ .enter-container{
+    padding: 80px 370px 933px;
+ }
+.enter-subtitle{
+    font-size: 36px;
+        line-height: 1.11111;
+ }
+}
