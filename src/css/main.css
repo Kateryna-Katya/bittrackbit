@@ -21,3 +21,47 @@
     background-image: url("/img/hero/desk.png");
 }
 }
+/* discliaimer */
+.disclaimer-section{
+    background-image: url("/img/disclaimer/mob.png");
+        background-repeat: no-repeat;
+            background-position: top center;
+            background-size: cover;
+}
+.disclaimer-title{
+    font-family: "Urbanist", sans-serif;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 1.2;
+        text-align: right;
+        color: #172a47;
+}
+.disclaimer-text{
+    font-family: "Urbanist", sans-serif;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 1.14286;
+        color: #172a47;
+        margin-top: 96px;
+}
+.span{
+    font-weight: 900;
+}
+@media only screen and (min-width: 1439px) {
+   .disclaimer-section{
+    background-image: url("/img/disclaimer/desk.png");
+   }
+   .disclaimer-container{
+    padding-left: 276px;
+   }
+   .disclaimer-title{
+   text-align: left;
+   margin-left: 320px;
+    font-size: 48px;
+    line-height: 1.08333;
+   }
+   .disclaimer-text{
+    font-size: 36px;
+    margin-top: 32px;
+   }
+}
