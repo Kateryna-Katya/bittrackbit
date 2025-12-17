@@ -1,0 +1,78 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./footer.css');
+@import url('./header.css');
+@import url('./cookie-popup.css');
+
+.background {
+    background: #fff;
+    background-image: url("/img/back/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+font-family: "Urbanist", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: justify;
+    color: #040404;
+}
+
+.privacy-title {
+font-family: "Urbanist", sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 1.14286;
+    text-transform: uppercase;
+    text-align: center;
+    color: #040404;
+    margin-top: 80px;
+    margin-bottom: 40px;
+
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.policy-subtitle {
+    font-weight: 700;
+
+    font-size: 20px;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.mail-link {
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+@media only screen and (min-width: 1439px) {
+    .background {
+        text-align: left;
+        background-image: url("/img/back/desk.png");
+    }
+
+    .privacy-title {
+        font-weight: 800;
+        font-size: 32px;
+        margin-top: 120px;
+    }
+}
