@@ -275,3 +275,16 @@ flex-direction: column;
 gap: 20px;
 text-align: center;
 }
+@media only screen and (min-width: 1439px) {
+  .about-section{
+    background-image: url("/img/about/desk.png");
+  }
+  .about-container{
+    padding: 274px 356px 289px;
+  }
+}
+@media only screen and (min-width: 1500px) {
+.about-container {
+        padding: 330px 356px 289px;
+    }
+}
