@@ -178,3 +178,100 @@
         margin-top: 90px;
  }
 }
+/* demo */
+.demo-section{
+    background-image: url("/img/demo/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.demo-wrapper {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.demo-container{
+    position: relative;
+}
+.demo-btn{
+    position: absolute;
+   z-index: 2;
+
+   display: block;
+top: 40%;
+left: 40%;
+transform: translateX(-30%);
+}
+.game-img {
+    width: 100%;
+    display: block;
+    margin-bottom: 22px;
+}
+
+.demo-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+        height: 60px;
+}
+
+/* iframe поверх картинки */
+.iframe-wrapper {
+    position: absolute;
+    top: 5%;
+    /* під екран у картинці */
+    left: 49%;
+    transform: translateX(-53%);
+    width: 68%;
+    height: 54%;
+    z-index: 5;
+}
+
+#gameIframe {
+    width: 109%;
+    height: 146%;
+    border: none;
+    display: none;
+    background: #000;
+}
+
+#closeIframeBtn {
+    position: absolute;
+    top: 12px;
+    right: -30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+    z-index: 10;
+    width: 40px;
+    height: 20px;
+}
+@media only screen and (min-width: 1439px) {
+   .demo-btn{
+    top: 52%;
+    left: 50%;
+        transform: translateX(-50%);
+   }
+   .demo-img{
+    width: 358px;
+        height: 116px;
+   }
+}
+/* about */
+.about-section{
+    background-image: url("/img/about/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.about-container{
+    padding: 170px 36px 156px;
+}
+.about-wrapper{
+display: flex;
+flex-direction: column;
+gap: 20px;
+text-align: center;
+}
